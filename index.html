@@ -9,27 +9,7 @@
   <script src="https://fb.me/react-0.13.3.js"></script>
   <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
 
-  <script type="text/jsx">
-  var Avatar = React.createClass({
-    getDefaultProps: function() {
-      return {
-        path: 'https://www.gravatar.com/avatar/71eaded18d7cbdeb159648e04806d403'
-      };
-    },
-
-    render: function() {
-      return (
-        <div>
-          <a href={this.props.path}>
-            <img src={this.props.path} />
-          </a>
-        </div>
-      );
-    }
-  });
-
-  React.render(<Avatar />, document.body)
-  </script>
+  <script type="text/jsx" src="/js/components/Avatar.js"></script>
 </body>
 
 </html>
